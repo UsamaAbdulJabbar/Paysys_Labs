@@ -20,24 +20,51 @@ define( 'WP_CACHE', true );
  * @package WordPress
  */
 
-// ** Database settings - You can get this info from your web host ** //
+//Using environment variables for DB connection information
+
+$connectstr_dbhost = '';
+$connectstr_dbname = '';
+$connectstr_dbusername = '';
+$connectstr_dbpassword = '';
+
+foreach ($_SERVER as $key => $value) {
+    if (strpos($key, "MYSQLCONNSTR_") !== 0) {
+        continue;
+    }
+    
+    $connectstr_dbhost = preg_replace("/^.*Data Source=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbname = preg_replace("/^.*Database=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
+    $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
+}
+
+
+// ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'u814133457_HiMs4' );
+define('DB_NAME', $connectstr_dbname);
 
-/** Database username */
-define( 'DB_USER', 'u814133457_kZkDb' );
+/** MySQL database username */
+define('DB_USER', $connectstr_dbusername);
 
-/** Database password */
-define( 'DB_PASSWORD', 'bKc4Lcm4xW' );
+/** MySQL database password */
+define('DB_PASSWORD', $connectstr_dbpassword);
 
-/** Database hostname */
-define( 'DB_HOST', '127.0.0.1' );
+/** MySQL hostname */
+define('DB_HOST', $connectstr_dbhost);
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
 
-/** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+
+
+
+/** Enabling support for connecting external MYSQL over SSL*/
+$mysql_sslconnect = (getenv('DB_SSL_CONNECTION')) ? getenv('DB_SSL_CONNECTION') : 'true';
+if (strtolower($mysql_sslconnect) != 'false' && !is_numeric(strpos($connectstr_dbhost, "127.0.0.1")) && !is_numeric(strpos(strtolower($connectstr_dbhost), "localhost"))) {
+	define('MYSQL_CLIENT_FLAGS', MYSQLI_CLIENT_SSL);
+}
 
 /**#@+
  * Authentication unique keys and salts.
