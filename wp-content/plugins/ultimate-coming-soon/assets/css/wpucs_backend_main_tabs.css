@@ -1,0 +1,174 @@
+/* 
+* Main Body
+*/
+:root {
+    --bg-color: #513de8;
+    --white: #fff;
+    --black: #000;
+  }
+
+
+.wpucs-main-box-lite .wrap{
+  margin: 0;
+}
+
+#wpbody-content{
+  overflow: hidden;
+}
+
+/* 
+* Switch Button
+*/
+.wpucs-switch-common-lite {
+  margin-bottom: 20px;
+}
+.wpucs-switch-common-lite .label-text{
+    font-size: 16px;
+    display: block;
+    color: #00183D99;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.wpucs-switch-common-lite .switch-note-lite{
+  color: #00183D99;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.wpucs-switch-common-lite .switch[disabled]+label {
+  opacity: 0.7;
+}
+
+.wpucs-switch-common-lite .switch {
+    visibility: hidden;
+    margin-left: -9999px;
+    position: absolute;
+}
+.wpucs-switch-common-lite label{
+    margin-bottom: 0;
+}
+.wpucs-switch-common-lite .switch + label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border-radius: 80px;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+}
+.wpucs-switch-common-lite .switch + label:before {
+    right: 0px;
+    background: #F1F1F1;
+    border-radius: 75px;
+}
+.wpucs-switch-common-lite .switch + label:after {
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.wpucs-switch-common-lite .switch + label:before,
+.wpucs-switch-common-lite .switch + label:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.wpucs-switch-common-lite .switch:checked + label:before {
+    background-color: var(--bg-color);;
+}
+.wpucs-switch-common-lite .switch:checked + label {
+    border-color: var(--bg-color);;
+}
+
+.wpucs-md-switch-lite .switch + label {
+    height: 30px;
+    width: 60px;
+    margin-bottom: 0;
+}
+.wpucs-md-switch-lite .switch + label:after {
+    width: 28px;
+    height: 28px;
+}
+.wpucs-md-switch-lite .switch:checked + label:after {
+    margin-left: 30px;
+}
+
+/* 
+* End Switch Button
+*/
+
+
+/* 
+*  Button
+*/
+.wpucs-submit-buttons-lite {
+    text-align: center;
+    display: flex;
+}
+
+.wpucs-submit-buttons-lite input[type="submit"] {
+    margin-right: 10px;
+}
+
+.wpucs-hint-lite{
+  color: #9f9f9f !important;
+}
+
+
+.wpucs-submit-buttons-lite .submit{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.wpucs-submit-buttons-lite .submit input[type="submit"]{
+  padding: 0px 35px 0px;
+  background: #fff;
+  border: 2px solid #dddddd;
+  color: #00000094;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
+  transition: all linear 0.3s;
+}
+
+.wpucs-submit-buttons-lite .submit input[type="submit"]:hover{
+  background: var(--bg-color);
+  color: var(--white);
+  border-color: var(--bg-color);
+  box-shadow: 0 10px 30px 0 #0000002d;
+}
+
+.wpucs-submit-buttons-lite .submit input[type="submit"].button-primary{
+    background: var(--bg-color);
+    color: var(--white);
+    border-color: var(--bg-color);
+}
+
+.wpucs-submit-buttons-lite .submit input[type="submit"].button-primary:hover{
+  background: #3c2da7;
+  color: var(--white);
+  border-color: #3c2da7;
+  box-shadow: 0 10px 30px 0 #0000002d;
+
+}
+
+.ucsm_title{
+  font-size: 16px;
+  display: block;
+  color: #00183D99;
+  margin-bottom: 10px;
+  font-weight: unset;
+}
+/* 
+* End Button
+*/
+
+/* 
+* End Main Body
+*/

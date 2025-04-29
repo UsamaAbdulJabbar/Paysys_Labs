@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'reobizicon';
+    src: url('reobizicon.eot');
+    src: url('reobizicon.eot?#iefix') format('embedded-opentype'),
+         url('reobizicon.woff2') format('woff2'),
+         url('reobizicon.woff') format('woff'),
+         url('reobizicon.ttf')  format('truetype'),
+         url('reobizicon.svg#reobizicon') format('svg');
+}

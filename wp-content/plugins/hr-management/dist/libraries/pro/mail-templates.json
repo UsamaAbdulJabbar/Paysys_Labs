@@ -1,0 +1,42 @@
+[
+	{
+		"id": "application-stage-changed-to-candidate",
+		"label": "Hiring stage progress email to the candidate"
+	},
+	{
+		"id": "application-stage-changed-to-primary-email",
+		"label": "Application stage change notification to the primary email"
+	},
+	{
+		"id": "job-updated-to-primary-email",
+		"label": "Job post updates published to primary email"
+	},
+	{
+		"id": "meeting-invitation-to-candidate",
+		"label": "Meeting Invitation to candidates"
+	},
+	{
+		"id": "meeting-invitation-to-hiring-team",
+		"label": "Meeting invitation to hiring team members"
+	},
+	{
+		"id": "meeting-update-to-all",
+		"label": "Meeting update notification to attendees"
+	},
+	{
+		"id": "new-applicaiton-to-primary-email",
+		"label": "New submission received to the primary email"
+	},
+	{
+		"id": "new-applicaiton-to-secondary-email",
+		"label": "New submission received to the secondary email"
+	},
+	{
+		"id": "new-employee-created-to-employee",
+		"label": "New emplaoyee created to employee"
+	},
+	{
+		"id": "new-job-published-to-primary-email",
+		"label": "New job post published to primary email"
+	}
+]

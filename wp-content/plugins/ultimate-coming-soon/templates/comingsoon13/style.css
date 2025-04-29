@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans';
+    background-color: #f7f7f7;
+}
+
+.ucsm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.ucsm-content {
+    text-align: center;
+    max-width: 1140px;
+}
+
+.ucsm-header-top-bar-pro {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ucsm-header-logo-lite {
+    width: 300px;
+}
+
+.ucsm-header-logo-lite img {
+    max-width: 100%;
+    max-height: 70px;
+}
+
+.ucsm-header-top-bar-pro .ucsm-header-logo-lite a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ucsm-heading {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 48.42px;
+    margin: 0 125px;
+    font-family: 'leckerlione-regular';
+}
+
+.ucsm-heading span {
+    color: #FFC75C;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+    font-family: 'inter-bold';
+    display: block;
+}
+
+.ucsm-content>p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 0 50px;
+    font-family: 'inter-regular';
+
+}
+
+.ucsm-content form {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.ucsm-form-box {
+    display: flex;
+    padding-top: 40px;
+    width: 680px;
+    margin: 0 auto;
+}
+
+.ucsm-form-box input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'inter-regular';
+
+}
+
+.ucsm-form-box input::placeholder {
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ucsm-form-box input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.ucsm-form-box button {
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #FFC75C;
+    border: 0;
+    padding: 0 45px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'inter-semibold';
+}
+
+
+.ucsm-form-box button:hover {
+    background: #e7c178;
+    color: #fff;
+}
+
+.ucsm-social-box-lite ul {
+    margin: 50px 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ucsm-social-box-lite ul li a {
+    display: inline-block;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #ffffff23;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear 0.3s;
+    text-decoration: none;
+}
+
+.ucsm-social-box-lite ul li a:hover {
+    background: #FFC75C;
+
+}
+
+.ucsm-social-box-lite ul li a svg path {
+    transition: all linear 0.3s;
+}
+
+.ucsm-social-box-lite ul li a:hover svg path {
+    fill: #000;
+}
+
+.ucsm-countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ucsm-countdown .ucsm-countdown-item-lite {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 4px 22px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+}
+
+.ucsm-countdown .ucsm-countdown-item-lite .ucsm-countdown-label-lite {
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    margin: 0px 0px 0 10px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 24px;
+    font-family: 'jost-medium';
+}
+
+.ucsm-countdown .ucsm-countdown-item-lite .ucsm-countdown-number-lite {
+    font-weight: 500;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'jost-medium';
+}
+
+
+.ucsm-contact-info-lite {
+    position: static;
+    width: auto;
+}
+
+.ucsm-contact-info-lite ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ucsm-contact-info-lite ul li {
+    display: inline-block;
+    font-family: 'inter-regular';
+
+}
+
+.ucsm-contact-info-lite ul li,
+.ucsm-contact-info-lite ul li a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    gap:10px;
+}
+.ucsm-contact-info-lite ul li a p{
+    transition: all 0.3s;
+}
+.ucsm-contact-info-lite ul li a:hover p{
+    color: #ffffffcc;
+}
+
+
+.ucsm-contact-info-lite ul li .icon {
+    
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ucsm-copyright{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ffffff38;
+}
+.ucsm-copyright p{
+    color: #ffffff;
+}
+.ucsm-copyright p a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.ucsm-copyright p a:hover{
+    color: #FFC75C;
+}
+
+@media (min-width: 992px) {
+    .ucsm-countdown {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .ucsm-container {
+        height: auto;
+        padding: 150px 0 100px;
+    }
+    .ucsm-header-top-bar-pro{
+        top: 30px;
+    }
+    .ucsm-contact-info-lite {
+        padding-top: 0px;
+        position: static;
+        transform: translateX(-0%);
+    }
+
+    .ucsm-contact-info-lite ul li a {
+        margin: 0 15px 15px;
+    }
+
+    .ucsm-countdown {
+        flex-wrap: wrap;
+    }
+
+    .ucsm-countdown .ucsm-countdown-item-lite {
+        margin-bottom: 20px;
+    }
+    .ucsm-header-textlogo-lite a{
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .ucsm-header-top-bar-pro {
+        padding: 0 30px;
+    }
+
+    .ucsm-content {
+        max-width: inherit;
+        padding: 0 15px;
+    }
+
+    .ucsm-heading {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        margin: 0;
+    }
+
+    .ucsm-heading span {
+        font-size: 40px !important;
+    }
+
+    .ucsm-content>p {
+        font-size: 16px;
+    }
+
+    .ucsm-countdown .ucsm-countdown-item-lite .ucsm-countdown-number-lite {
+        font-size: 40px !important;
+    }
+
+    .ucsm-countdown .ucsm-countdown-item-lite {
+        flex-basis: 50%;
+    }
+
+    .ucsm-form-box {
+        padding: 20px 20px 0;
+        width: auto;
+        justify-content: center;
+    }
+
+    .ucsm-countdown .ucsm-countdown-item-lite {
+        margin: 0 20px 25px;
+        justify-content: center;
+    }
+
+    .ucsm-form-box button {
+        margin-top: 20px;
+        padding: 20px 30px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) { 
+    .ucsm-form-box button {
+        margin-top: 0px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .ucsm-header-top-bar-pro {
+        padding: 0 15px;
+        flex-direction: column;
+        top: 30px;
+    }
+
+    .ucsm-header-top-bar-pro .ucsm-header-logo-lite {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .ucsm-heading {
+        font-size: 34px;
+    }
+
+    .ucsm-form-box {
+        flex-direction: column;
+    }
+
+    .ucsm-form-box button {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .ucsm-form-box input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .ucsm-container {
+        padding: 200px 0 100px;
+    }
+    .ucsm-header-textlogo-lite{
+        margin-bottom: 20px;
+    }
+    .ucsm-header-textlogo-lite a{
+        font-size: 30px !important;
+    }
+}

@@ -1,0 +1,353 @@
+/* CSS for success message */
+.wpucsnotice-success {
+    opacity: 1;
+    background-color: #dff0d8; 
+    color: #3c763d; 
+    padding: 1px 20px;  
+    line-height: 1.4; 
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #00a32a;
+    border-left-width: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.notice {
+    display: none;
+}
+.ucsm-disabled {
+  opacity: 0.5;
+}
+.ucsm-disabled .wpucs-radio-item-lite .wpucs-dot-icon-pro::before {
+  display: none;
+} 
+.ucsm-disabled .wpucs-radio-item-lite input[type="radio"]:checked+label span {
+  color: #00183D99 !important;
+} 
+
+.ucsm-readonly {
+  pointer-events: none;
+}
+.notice-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Add a class to hide the success message */
+.notice-hidden {
+    display: none;
+}
+
+.wpucsnotice-success p{
+	font-size: 18px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.wpucs-error-message-pro{
+	margin-left: 20px;
+	color: #ff0000;
+	display: inline-block;
+}
+
+.wpucsnotice-dismiss{
+    right: 10px;
+    top: 50%;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    color: #787c82;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.wpucsnotice-dismiss:before{
+	font: normal 20px/20px dashicons;
+    background: 0 0;
+    color: #787c82;
+    content: "\f153";
+    display: block;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.wpucsnotice-lite a{
+    text-decoration: none;
+}
+
+.wpucsnotice-lite .buynow{
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+    color: var(--white);
+    padding: 8px 20px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+
+.wpucsnotice-lite .buynow:hover{
+    background: transparent;
+    color: var(--bg-color);
+}
+
+/*Newsletter Custom styles for the table */
+.wpucs-main-box-lite table.wpucs-widefat-lite {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wpucs-main-box-lite .wpucs-widefat-lite th,
+.wpucs-main-box-lite .wpucs-widefat-lite td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc; /* Change the border color */
+}
+
+.wpucs-main-box-lite .wpucs-widefat-lite th {
+    font-weight: bold;
+    background-color: #e3e3e3; /* Change the header background color */
+    color: #333; /* Change the header text color */
+}
+
+.wpucs-main-box-lite .wpucs-widefat-lite tr:nth-child(2n) {
+    background-color: #f5f5f5; /* Change the even row background color */
+}
+
+.wpucs-main-box-lite .wpucs-widefat-lite tbody tr:hover {
+    background-color: #f0f0f0; /* Change the hover row background color */
+}
+/*Translation*/
+.wpucs-main-box-lite table.translation-wpucs-widefat-lite{
+    margin-bottom: 50px;
+    border-color: #e7e7e7;
+    opacity: .5;
+}
+.wpucs-main-box-lite .translation-wpucs-widefat-lite th, .translation-wpucs-widefat-lite td{
+    vertical-align: middle;
+    padding: 10px 15px;
+    border: 0;
+}
+.wpucs-main-box-lite .translation-wpucs-widefat-lite thead td, .translation-wpucs-widefat-lite thead th{
+    padding: 20px 15px;
+    background: var(--bg-color);
+    color: var(--white);
+}
+.wpucs-main-box-lite .translation-wpucs-widefat-lite thead tr td, .translation-wpucs-widefat-lite thead tr th{
+    color: var(--white);
+}
+.wpucs-main-box-lite .translation-wpucs-widefat-lite tbody tr:nth-child(odd){
+    background-color: #fff;
+}
+.wpucs-main-box-lite .translation-wpucs-widefat-lite tbody tr:nth-child(even){
+    background-color: #e7e7e773;
+}
+
+.wpucs-main-box-lite .translation-wpucs-widefat-lite tr td{
+    color: #665f5f;
+    font-size: 14px;
+}
+/* dashboard sidebar */
+
+/*email-settings*/
+.ucsm-sider-bar-lite .ucsm-sider-bar-lite-main fieldset{
+	border: 1px solid #ddd;
+	padding: 30px;
+	border-radius: 10px;
+  }
+  .ucsm-sider-bar-lite .ucsm-sider-bar-lite-main fieldset legend{
+	font-size: 20px;
+	display: block;
+	color: #00183D99;
+	padding: 0 10px;
+	font-weight: 700;
+  }
+  
+  .ucsm-sider-bar-lite .ucsm-sider-bar-lite-main h2 {    
+	color: var(--bg-color);
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 500;
+	margin: 15px 0 40px;
+  }
+  
+  .ucsm-sider-bar-lite .ucsm-sider-bar-lite-main form label{
+	font-size: 16px;
+	display: inline-block;
+	color: #00183D99;
+	
+  }
+  
+  .wpucs-lite-disable .translation-field-data input[type="text"]{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+    height: 50px;
+  }
+  .wpucs-lite-disable .wpucs_pro_feature_label {
+      font-size: 20px;
+      color: var(--bg-color);
+      padding: 0 10px;
+      font-weight: 900;
+      opacity: 1 !important;
+  }
+  /* Add your CSS to style the modal here */
+  .wpucs-lite-disable-modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .wpucs-lite-disable-modal-content {
+      background-color: var(--white);
+      border: 1px solid var(--white);
+      margin: 15% auto;
+      padding: 35px 40px;
+      border-radius: 10px;
+      width: 43%;
+      position: relative;
+  }
+  .wpucs-lite-disable-modal-content .buynow{
+      background-color: var(--bg-color);
+      border: 1px solid var(--bg-color);
+      color: var(--white);
+      padding: 8px 20px 10px;
+      border-radius: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: all linear 0.4s;
+  }
+  .wpucs-lite-disable-modal-content .buynow:hover{
+      background: transparent;
+      color: var(--bg-color);
+  }
+  .wpucs-lite-disable-modal-content p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .wpucs-lite-disable-modal-close {
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+  }
+  
+  .wpucs-lite-disable-modal-close:hover,
+  .wpucs-lite-disable-modal-close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .wpucs-tab-content-lite .wpucs-lite-disable .wpucs-opacity, .ucsm-sider-bar-lite-main .wpucs-lite-disable .wpucs-opacity{
+  
+    opacity: 0.4;
+  }
+ 
+  .wpucs-tab-content-lite .wpucs-lite-disable fieldset legend{
+    font-size: 20px;
+    display: block;
+    color: #00183D99;
+    padding: 0 10px;
+    font-weight: 700;
+  }
+
+  .add-social-icon-button {
+    background-color: #0073aa; /* WordPress admin blue */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 5px 19px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.add-social-icon-button:hover {
+    background-color: #005177; /* Darker blue on hover */
+}
+
+.add-social-icon-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0073aa, 0 0 0 4px #ffffff;
+}
+
+.add-social-icon-button:active {
+    background-color: #004a6f; /* Even darker blue on click */
+}
+
+.social_link_item {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    padding: 15px; /* Spacing inside the container */
+    margin-bottom: 15px; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flexbox layout for better alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out the items */
+}
+
+.social_link_item label {
+    display: flex !important; /* Flexbox for inline elements */
+    align-items: center; /* Center vertically */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social_link_item label i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.social_link_item input[type="text"] {
+    flex-grow: 1; /* Take up remaining space */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.social_link_item .remove_social_link {
+    background-color: #dc3545; /* Bootstrap Danger color */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social_link_item .remove_social_link:hover {
+    background-color: #c82333; /* Darker Danger color on hover */
+}
+
+.social_link_item .remove_social_link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #dc3545, 0 0 0 4px #ffffff;
+}
+
+.social_link_item .remove_social_link:active {
+    background-color: #bd2130; /* Even darker Danger color on click */
+}  

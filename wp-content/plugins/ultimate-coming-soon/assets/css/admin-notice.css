@@ -1,0 +1,60 @@
+.ucsm-admin-notice {
+    background: linear-gradient(90deg, rgba(69,1,58,1) 0%, rgba(22,27,129,1) 35%, rgba(69,1,58,1) 100%);
+    color: #fff !important;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border-left-color: #009cff !important;
+    border-radius: 10px;
+}
+
+.ucsm-admin-notice p {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'urbanist-semibold', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400 !important;
+}
+
+.ucsm-admin-notice .ucsm-highlight {
+    color: #47b8ff !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ultimate-coming-soon-button {
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: transparent;
+    color: #47b8ff !important;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: 'urbanist-semibold', sans-serif;
+    padding: 0;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+.ucsm-admin-notice .notice-dismiss{
+    top: 5px;
+}
+
+@media (max-width: 991px)  {
+    .ucsm-admin-notice {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .ultimate-coming-soon-button{
+        margin: 0;
+    }
+    .ucsm-admin-notice p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

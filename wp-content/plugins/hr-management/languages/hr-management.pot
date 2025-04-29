@@ -1,0 +1,3589 @@
+# Copyright (C) 2025 CrewHRM
+# This file is distributed under the same license as the CrewHRM package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CrewHRM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-02-16 22:01+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../hr-management-pro/classes/Main.php:91
+msgid "Crew HRM Pro requires  %sCrew HRM Free%s version installed and active."
+msgstr ""
+
+#: ../hr-management-pro/classes/Main.php:158
+msgid "Install CrewHRM"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:81
+msgid "Application submission failed!"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:113
+msgid "Invalid file"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:119
+msgid "Invalid request"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:178
+msgid "Application not found"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:219
+msgid "No activity"
+msgstr ""
+
+#: classes/Controllers/ApplicationHandler.php:251
+msgid "Application deleted"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:107
+msgid "Failed to save job"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:115
+msgid "Job published"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:115
+msgid "Job saved"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:160
+msgid "Job archived"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:167
+msgid "Job deleted"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:173
+msgid "Job duplicated"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:253
+msgid "Job not found to edit"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:290
+msgid "Stage not found to move to"
+msgstr ""
+
+#: classes/Controllers/JobManagement.php:290, classes/Controllers/PluginSettings.php:42
+msgid "Something went wrong!"
+msgstr ""
+
+#: classes/Controllers/PluginSettings.php:54
+msgid "New department added successfully"
+msgstr ""
+
+#: classes/Controllers/PluginSettings.php:72
+msgid "Settings updated!"
+msgstr ""
+
+#: classes/Models/Application.php:36
+msgid "You should not try to do PHP Object Injection!"
+msgstr ""
+
+#: classes/Models/Job.php:630
+msgid "Draft"
+msgstr ""
+
+#: classes/Models/Settings.php:165
+msgid "Agriculture & Natural Resources"
+msgstr ""
+
+#: classes/Models/Settings.php:166
+msgid "Extraction & Mining"
+msgstr ""
+
+#: classes/Models/Settings.php:167
+msgid "Energy & Utilities"
+msgstr ""
+
+#: classes/Models/Settings.php:168
+msgid "Construction & Infrastructure"
+msgstr ""
+
+#: classes/Models/Settings.php:169
+msgid "Manufacturing & Production"
+msgstr ""
+
+#: classes/Models/Settings.php:170
+msgid "Wholesale & Distribution"
+msgstr ""
+
+#: classes/Models/Settings.php:171
+msgid "Retail & Consumer Goods"
+msgstr ""
+
+#: classes/Models/Settings.php:172
+msgid "Transportation & Logistics"
+msgstr ""
+
+#: classes/Models/Settings.php:173
+msgid "Technology & Communication"
+msgstr ""
+
+#: classes/Models/Settings.php:174
+msgid "Finance & Insurance"
+msgstr ""
+
+#: classes/Models/Settings.php:175
+msgid "Real Estate & Property"
+msgstr ""
+
+#: classes/Models/Settings.php:176
+msgid "Professional Services"
+msgstr ""
+
+#: classes/Models/Settings.php:177
+msgid "Healthcare & Wellness"
+msgstr ""
+
+#: classes/Models/Settings.php:178
+msgid "Entertainment & Media"
+msgstr ""
+
+#: classes/Models/Settings.php:179
+msgid "Hospitality & Tourism"
+msgstr ""
+
+#: classes/Models/Settings.php:180
+msgid "Education & Training"
+msgstr ""
+
+#: classes/Models/Settings.php:181
+msgid "Non-Profit & Social Services"
+msgstr ""
+
+#: classes/Models/Settings.php:182
+msgid "Government & Public Services"
+msgstr ""
+
+#: classes/Setup/Addon.php:105, classes/Setup/Addon.php:106
+msgid "Addons"
+msgstr ""
+
+#: classes/Setup/Admin.php:55, classes/Setup/Admin.php:56, ../hr-management-pro/classes/Setup/Dispatcher.php:51, ../hr-management-pro/classes/Setup/Dispatcher.php:52
+msgid "Event Calendar"
+msgstr ""
+
+#: classes/Setup/Admin.php:107, classes/Setup/Admin.php:108, classes/Setup/Admin.php:230, ../hr-management-pro/classes/Setup/Misc.php:34
+msgid "Dashboard"
+msgstr ""
+
+#: classes/Setup/Admin.php:117, classes/Setup/Admin.php:118
+msgid "All Job Posts"
+msgstr ""
+
+#: classes/Setup/Admin.php:127, classes/Setup/Admin.php:128
+msgid "Employees"
+msgstr ""
+
+#: classes/Setup/Admin.php:137, classes/Setup/Admin.php:138
+msgid "Settings"
+msgstr ""
+
+#: classes/Setup/Admin.php:194
+msgid "Need to upgrade to Pro"
+msgstr ""
+
+#: classes/Setup/Admin.php:233
+msgid "Get Pro"
+msgstr ""
+
+#. translators: Careers page setup warning
+#: classes/Setup/Admin.php:260
+msgid "Please %1$sset up%2$s a page to display the job posts."
+msgstr ""
+
+#. translators: Show the duplicate registered endpoint
+#: classes/Setup/Dispatcher.php:74
+msgid "Duplicate endpoint %s not possible"
+msgstr ""
+
+#: classes/Setup/Dispatcher.php:116
+msgid "Nonce verification failed!"
+msgstr ""
+
+#: classes/Setup/Dispatcher.php:124
+msgid "Access Denied!"
+msgstr ""
+
+#: classes/Setup/Dispatcher.php:129
+msgid "Invalid Endpoint!"
+msgstr ""
+
+#: classes/Setup/Dispatcher.php:163
+msgid "Invalid request data!"
+msgstr ""
+
+#: classes/Setup/Employee.php:51
+msgid "Employee"
+msgstr ""
+
+#: classes/Setup/Mails.php:56
+msgid "Application received"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/CommentController.php:39
+msgid "Failed to process comment!"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/CommentController.php:37
+msgid "Comment submitted successfully!"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/EventController.php:47
+msgid "Failed to save event!"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/EventController.php:40
+msgid "Event created"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/EventController.php:40
+msgid "Event updated"
+msgstr ""
+
+#: ../hr-management-pro/classes/Controllers/EventController.php:73
+msgid "Event deleted"
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/HRRole.php:17
+msgid "HR Manager"
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/Updater.php:53
+msgid "Crew HRM Pro License"
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/Updater.php:54
+msgid "License"
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/Updater.php:110
+msgid "The license key is expired or revoked!"
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/Updater.php:144
+msgid "Request error! The license key is not correct or could not connect to the validator server."
+msgstr ""
+
+#: ../hr-management-pro/classes/Setup/Updater.php:220
+msgid "There is an error with your Crew HRM Pro License. Automatic update has been turned off, %s Please check license %s."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Careers Block Settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search Field"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Show search field"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Careers Page Header"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Show banner and tagline"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Banner Image"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Remove Image"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Image"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Tagline"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sidebar Filter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sidebar filter panel"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Country Filter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "All"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Department"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Keyword"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Career Listing"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Careers"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job post listing"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Need to upgrade"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "This feature is not bundled with free version of Crew HRM. If you want to use it, you need to upgrade to Pro."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Already Purchased?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upgrade now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Addons"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Create A New Job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "FREE"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unlock Now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Activated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Deactivated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search Keywords"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No Job Found!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Jobs"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Loading More..."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Loading..."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Load More"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Filter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reset"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Departments"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Location"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Clear Filters"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Thank you for applying to the job!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You will receive a confirmation email as well. Should you have any inquiries or wish to include further details, please do not hesitate to reply to the email."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Personal Information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Documents"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Other Information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submission failed. Something went wrong!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submission failed!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Application submitted!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Apply"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Apply for this job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Fields marked with * are required."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submit Application"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save & Continue"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Something Went Wrong!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Salary"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Apply Now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "About Company"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Application Deadline:"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Candidates"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hired"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "View Job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Candidates"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Disqualified by"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Moved to %s by"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "applied"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "COVER LETTER"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "RESUME"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Not a PDF file."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Download Instead."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Disqualify"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Delete"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Event"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Internal Comment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to move?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Yes"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to disqualify?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Disqualified"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Disqualify Candidate"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Move to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Overview"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Activity"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Something went wrong!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Gender"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Date of Birth"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No candidates yet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Qualified (%s)"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Disqualified (%s)"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search by name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Something went wrong"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Openings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "All Departments"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "All Status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Well done"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "There are no job post"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Preview"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Edit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Are you sure to duplicate?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Archive"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Are you sure to archive?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Un-archive"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Are you sure to un-archive?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Share Job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Are you sure to delete permanently?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unknown Status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Review"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "View All Jobs"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Job Posts"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Applications"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Hired"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Pending"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Find the person you want to hire"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Candidates see your logo and description on job posts, and more"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dashboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job List"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Applications"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The unique email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Role"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The designation assigned to the employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The department hired to. Such as development, marketing and so on."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment type such as Full Time, Contract and so on."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Location\/address of the employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hire Date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The hire date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment Status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. John doe"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No employee added yet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add New Employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Previous"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Next"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Edit Columns"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Cancel"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Update"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employee List"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Attendance"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Payroll"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Training"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "People"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Component not found"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upload"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Onboarding Guideline"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Congratulations! A new employee has been added successfully."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You can manage information later."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Waiting for a moment as we redirect your request.."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bonus & Compensation"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Signning Bonus"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Do you want to include one-time signing bonus?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Signing bonus amount"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Offer other bonuses?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Do you want to include other bonus?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Other bonus amount"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Offer equity compensation?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Do you want to offer equity compensation?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Equity compensation amount"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Benefits"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The benefits policy from global settings will apply automatically. You can review the global settings by clicking the gear icon above. If you want to offer custom benefits, please check the box below. Additional options will appear."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add custom benefits"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The leaves policy from global settings will apply automatically. You can review the global settings by clicking the gear icon above. If you want to offer custom leaves, please check the box below. Additional options will appear."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add custom leaves"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Contract details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Currency"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Annual Gross salary"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Working hours per week"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. 30"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Start date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "End date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Custom Working Hour"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The employee is in a provisional period"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Probation end date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "(optional)"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Emergency Contact"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Show additional options"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Educational Info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Other information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Social Media"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employee ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "001"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Experience Level"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Role/Designation"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Product Designer"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Workplace"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reporting Person"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reporting person name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employee Info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Contract Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Additional Option"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Edit employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add new employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Update Employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "completed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "People Hirelist"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Pick a job post and a newly hired member."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No job found to import employee from"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No hired application found outstanding"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Please select a job to import from"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add as Employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Invite team members"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "To invite team members write their email addresses and click on invite."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enter email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Invite"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Invite via email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Invite one or more new staff members to create their account"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add manually"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add info about the new staff member manually"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select from the hire list"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add info about the new member manually"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add your first hire to your company"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "New team members show up here after completing onboarding. Ready to begin"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to change status?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Time:"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Personal Info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "First name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Last name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Preferred name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Email address"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Phone number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Date of birth"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bio"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Address"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Time Zone"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Subordinates"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment History"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Title"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reporting to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Full name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Relationship"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Phone"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reporting person"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Paragraph"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Short Answer"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "File Upload"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Multiple Choice"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Single Choice"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dropdown"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Untitled"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add a question"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Question Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Email Template"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Question"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. How did you hear about this job?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Options"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Option"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Update Question"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Question"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Customize your application form"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Required"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Publish Now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Update Now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "We are required by the law to collect certain race & ethnicity information. The categories are:"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hispanic or Latino/Latinx - A person of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin regardless of race."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "White (Not Hispanic or Latino/Latinx) - A person having origins in any of the original peoples of Europe, the Middle East, or North Africa."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Black or African American (Not Hispanic or Latino/Latinx) - A person having origins in any of the black racial groups of Africa."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino) - A person having origins in any of the peoples of Hawaii, Guam, Samoa, or other Pacific Islands."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino/Latinx) - A person having origins in any of the peoples of Hawaii, Guam, Samoa or other Pacific Islands."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Asian (Not Hispanic or Latino/Latinx) - A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Personal information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "First Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Last Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Mobile Number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Resume"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Resume (PDF) - Max 2MB"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Browse resume"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Cover Letter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Write your cover letter here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Profile"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "What gender are you?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Gender"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Gender and Race/Ethnicity"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Congratulations!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The job post is published"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You can now share the job post anywhere you like."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Go to Dashboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hiring stage"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Stage"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "About %s candidates are in the %s stage."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "1 candidate is in the %s stage."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "To remove this stage, candidates must be moved to another stage."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Stage"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Move"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No other stage found to move to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employment details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Choose employment type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Number of Vacancy"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submission Deadline"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Street Address"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. New York, NY 00010, USA"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Use a location to attract the most appropriate candidates"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. NY 00010"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Country"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Experience"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Years of Experience"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex 2-3 Years"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Salary Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex 70000-90000"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Adding the salary here will improve performance on some job boards. You can also include the salary in the job description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add %s"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Department"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Title & Description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Tips"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Product designer, Account manager"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Use common job titles for searchability"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Internal Job code"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. 001"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enter your job description here; include key areas responsibility and specific qualification needed to perform the role."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Format into sections and lists to improve readability"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Avoid targeting specific demographics e.g. gender, nationality and age"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hiring Flow"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Application Form"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Screening"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Assesment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Interview"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Make an Offer"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "There is an auto saved version of this job. Would you like to restore?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Restore"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Auto saving ..."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Preview Job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Publish"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add New"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Company Logo"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upload Logo"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Recruitment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "These settings will work for to show the job posts and control the allowed attachment types and maximum size."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Listing Page"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure careers page features and application submission"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Page"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Show Banner"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Banner Text"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sidebar Filters"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job Post Per Page"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Application form layout"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Segmented Form"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Single Form"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Outgoing Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure outgoing emails"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Email Notifications"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Crew HRM sends updates by email to admins and applicants. Turn them on as needed."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Files & Attachments"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Please enable Attachment addon first"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Working hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure default working hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Default Working Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leaves"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure default leaves"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Default Leaves"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure default benefits"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Default Benefits"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Company"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Share your company identity and information here. These information will be used on the applicable places."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Company Info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Set your company informations"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Company Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. ABC"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Business Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Write about the company.."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Set your company location information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Mobile"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Primary Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "This email address will be used to communicate with the candidates and employees."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Secondary Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Website"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Linked In"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Facebook"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "X (Former Twitter)"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add your company departments to use for job posts and employee profiles."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Integrations"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Manage External API integrations"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Google Meet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You need to enable Google Meet addon first"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Zoom"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You need to enable Zoom addon first"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save Changes"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Site Key"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Secret Key"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "reCAPTCHA Setup"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Get credentials from "
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "reCAPTCHA Dashboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save Keys"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Setup your reCaptcha Integration"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Credentials to connect reCaptcha with your website"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "reCaptcha integration"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search a team member"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Attendee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Event Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Event Title"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "e.g Call with Bessie copper - Account Manager"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Guest"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure %s from settings to create meeting automatically! Or, enter link manually."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Meeting will be created automatically if you keep this field empty."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Note"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Update Event"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Create Event"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to delete this event?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s Guests"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s Guest"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Join Meeting"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Calendar"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No Event!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "View Full Calendar"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Schedule and event"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "White-Label"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "White label settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add your own data and images to show instead of CrewHRM"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "App Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Squire Logo"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Wide Logo"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Write your comments"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Attach a file"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submit Comment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add a comment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Candidates never see comments."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Terms and Conditions"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "and"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Privacy Policy."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Need Help!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Supporting Documents"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Educational Certificate"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Photo ID card"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "To identify you and know what name to use."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Who should be called an emergency"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Payment Received Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "We need your bank/wise/other information to pay you."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "We need a few documents with additional information"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Nice to meet you"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Here are the tasks to start your job with Crew. Please fill in all the details accurately.Remote will then use this information to create your employment agreement."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "tasks remaining"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "task remaining"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Back"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Great job! You’ve completed your onboarding"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Paypal"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Paypal Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Payoneer"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Payoneer Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Interac"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Interac e-Transfer Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Wise"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Wise Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bank"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Account Holder"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Account Number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bank Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Branch Name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Account Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Checking"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Savings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Routing Number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "IBAN"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "SWIFT/BIC Code"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Your salary will be paid in"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "United States Dollar"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Method"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "One special character"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "One Uppercase"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "One Number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "8-20 characters"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Welcome to Crew"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Set your password to finish setting up your account for %s."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "New Password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Confirm new password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The password must be exactly the same"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Set Password"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "My Info"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Team Performance"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hiring"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Report"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Clock In"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s Days"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s Day"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upcoming leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "available"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leave without pay"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "used"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "New Leave Request"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submit your New Leave Request now and embark on a refreshing journey away from your desk."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Request for leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No leave history yet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leave History"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Start Date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "End Date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leave Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Total Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enter your leave reason here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Available Leave Days for 2023"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Annual Leaev -"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "7 Days Available"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Leave without Pay -"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "0 Days Used"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Submit Request"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No team member"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Local Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unknown"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reports to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Working Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "All Folder/"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Floyd Miles"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "1 Item"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hire date"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bank Details"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Not set yet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Timesheet"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "My Team"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Job"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Completed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Complete"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Download Instead"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "1 - 7 November"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "31"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "SUN"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add time entry"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No result!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Video"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Files"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No Team Member"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "View all"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "On leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enter time entry"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Start Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex 123 456 7890"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "End Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Save time to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Note"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add New Entry"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Day Total: 9h:00m"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Whats Happening at Crew"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You have 11 applicants for the product design opening!"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "3 days ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "View"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upcoming"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Available"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unpaid used"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Today"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Celebrations"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Only registered employees are allowed to access the Human Resource Management System."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The token has been expired or not valid"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "No leave request found"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Period"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Receving Account"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Payment Method"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Congratulations"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "The license is activated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Licensed to"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Licensed Type"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Expires on"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Never"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "This license is activated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "RECONNECT"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "CrewHRM Pro License"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Enter your license key here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Activate"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Paste"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Having trouble?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Contact us"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dashboard settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Configure employee dashboard settings"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Employee Dashboard Path"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unused leaves remains in next year?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ATTACHMENTS"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Allowed file types"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Please specify which file types you want to accept"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Attachment file limit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Specify how many file one can submit apart from resume"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Individual attachment maximum size in MB"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Specify the maximum allowed size per uploaded file"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "File Attachment"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upload attachments"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Maximum attachment %s, max %s MB per file."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Browse Files"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Questions"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "From"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "To"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Subject"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Message"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Write your message"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Send Email"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Your Google Meet integration has been successfully established"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Credential has been saved"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "You are currently connected to Meet as %s"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Use another credential"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Setup your Google Meet Integration"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Uploading Credential..."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "or, Just  drop your JSON File here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Credential has been saved. Now you need to grant permissions through Google Consent Screen"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Grant permissions"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Credentials to connect Google Meet with your website"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Tenant ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Application (Client) ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Client Secret"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Setup your Microsoft Teams Integration"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Follow the instructions to connect Microsoft Teams with Crew HRM. "
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Connect Teams"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Please read the instruction before you begin"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Step 1: Setup Azure Application"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Step 2: Configure API permissions"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Step 3: Generate client secret"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Step 4: Generate client secret"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Microsoft Teams"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Account ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Client ID"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Setup your Zoom Integration"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Visit your zoom account and fetch the API key to connect Zoom with your website. "
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Connect Zoom"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "API key to connect Zoom with your website"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Search.."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "See full view"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "See short view"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Browse"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "or, Just drop it here"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Upload failed: %s exceeds %sMB limit."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add sub lesson"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "PHOTO"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. John"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Doe"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. mail@example.com"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "About"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Timezone"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Benefits"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Benefits Title"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Health"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Benefits Description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Description"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Sub-benefit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Public Holiday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sick leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Casual leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Religious holidays"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Parental leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. . 20"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Off Day"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Institute name"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Harvard University"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Program"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. Software Engineering"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Passing Year"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "YYYY"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add more"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. John Doe"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Email Address"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. emergency@email.com"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. "
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Marital Status"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Driving License"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ex. 423443534"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "National Identity Number"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Blood Group"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "https://"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Loading Document"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Failed to open PDF."
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Done"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Try Again"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Dismiss"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sure to proceed?"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "OK"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unit\\Flat"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "City"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Province"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Postal/Zip Code"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Select Country"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Monday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Tuesday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Wednesday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Thursday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Friday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Saturday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sunday"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Male"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Female"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Other"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Decline to self Identity"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Published"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Draft"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Archived"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Expired"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "PDF"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "DOC"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "DOCX"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "JPG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "JPEG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "PNG"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MP3"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "WAV"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MP4"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "MOV"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "ZIP"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "RAR"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "12 Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "24 Hours"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "On-Site"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Fully Remote"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hybrid"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Full Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Part Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Contract"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Temporary"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Trainee"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Active"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Inactive"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Resigned"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Laid Off"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Terminated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Beginner"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Intermidiate"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Advanced"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Hourly"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Daily"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Weekly"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Monthly"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Yearly"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "0"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "1"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "2"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "3"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "4"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "5"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "6"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "7"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "8"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "9"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Single"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Married"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Separated"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Devorced"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Widowed"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Parent"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sibling"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Spouse"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Friend"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Colleague"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Sick Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Vacation Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Personal Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Maternity Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Paternity Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Bereavement Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Unpaid Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Holiday Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Compensatory Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Mental Health Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Training Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Family Emergency Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Compassionate Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Administrative Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Annual Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Casual Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Educational Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Relocation Leave"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Pending"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Cancelled"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Approved"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Rejected"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "End time must be later than start time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Time"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "January"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "February"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "March"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "April"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "May"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "June"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "July"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "August"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "September"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "October"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "November"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "December"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Copied to clipboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Error copying to clipboard"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Remote"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s year from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s years from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s month from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s months from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s week from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s weeks from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s day from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s days from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hour from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hours from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minute from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minutes from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Less than a minute from now"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s year ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s years ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s month ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s months ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s week ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s weeks ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s day ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s days ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hour ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s hours ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minute ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s minutes ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s second ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "%s seconds ago"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Add "%s""
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Linkedin"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Twitter"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Reddit"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Share"
+msgstr ""
+
+#: dist/libraries/translation-loader.js:1
+msgid "Copy"
+msgstr ""

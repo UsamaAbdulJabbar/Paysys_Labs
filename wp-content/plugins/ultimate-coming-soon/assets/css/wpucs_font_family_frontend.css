@@ -1,0 +1,97 @@
+/* 
+* Font Family Import
+*/
+
+
+@font-face {
+	font-family: 'leckerlione-regular';
+	src: url('../templates-fonts/LeckerliOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'inter-bold';
+	src: url('../templates-fonts/Inter-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'inter-regular';
+	src: url('../templates-fonts/Inter-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'inter-semibold';
+	src: url('../templates-fonts/Inter-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../templates-fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../templates-fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'jost-regular';
+	src: url('../templates-fonts/Jost-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'jost-medium';
+	src: url('../templates-fonts/Jost-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urbanist-light';
+	src: url('../templates-fonts/Urbanist-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urbanist-medium';
+	src: url('../templates-fonts/Urbanist-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urbanist-regular';
+	src: url('../templates-fonts/Urbanist-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urbanist-semibold';
+	src: url('../templates-fonts/Urbanist-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urbanist-bold';
+	src: url('../templates-fonts/Urbanist-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'urbanist-extrabold';
+	src: url('../templates-fonts/Urbanist-ExtraBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/* 
+* End Font Family Import
+*/ 

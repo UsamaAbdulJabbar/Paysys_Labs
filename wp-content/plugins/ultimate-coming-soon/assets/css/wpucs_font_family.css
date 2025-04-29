@@ -1,0 +1,22 @@
+/* 
+* Font Family Import
+*/
+
+@font-face {
+	font-family: 'montserrat-regular';
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserrat-semibold';
+	src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* 
+* End Font Family Import
+*/ 

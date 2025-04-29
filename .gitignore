@@ -1,0 +1,7 @@
+# Ignore all .zip files
+*.zip
+# Ignore all .tar files and common compressed tar formats
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz

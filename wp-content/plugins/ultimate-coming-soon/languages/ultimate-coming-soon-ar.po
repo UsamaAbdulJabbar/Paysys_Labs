@@ -1,0 +1,1030 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Coming Soon & Maintenance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-23 06:22+0000\n"
+"PO-Revision-Date: 2024-06-26 10:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.5\n"
+"X-Domain: ultimate-coming-soon"
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:87
+msgid " Box Color Settings"
+msgstr "ghiiuyiui"
+
+#: backend/tabs-content/content/enable-content-class.php:33
+msgid " Description:"
+msgstr "yjyykiukyu"
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:107
+msgid " Font Size (px):"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:15
+msgid " Info Text Color:"
+msgstr ""
+
+#: backend/footer.php:143
+msgid " Simple and Easy to Use"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:3
+msgid " Translation Settings"
+msgstr "klkjlk"
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:99
+msgid ""
+"\"Choose Redirect Mode if you want to redirect your website to another URL.\""
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:71
+msgid ""
+"\"When using the Coming Soon Mode, your website page will be indexed by "
+"search engines (Google, Bing, etc.).\""
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:85
+msgid ""
+"\"When using the Maintenance Mode, your website page will not be indexed by "
+"search engines (Google, Bing, etc.).\""
+msgstr ""
+
+#: backend/footer.php:35
+msgid "25+ Coming Soon Design Templates"
+msgstr ""
+
+#: backend/footer.php:109
+msgid "4+ Email Newsletter Services "
+msgstr ""
+
+#: backend/footer.php:65
+msgid "4+ Social Profiles Integrated"
+msgstr ""
+
+#: backend/tabs-content/templates/backend-part/templates-menu.php:37
+msgid "Activate"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:4
+msgid "Active Status"
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:34
+msgid "Address:"
+msgstr ""
+
+#: backend/footer.php:173
+msgid "All Wordpress Themes Supported"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:45 backend/admin-menubar.php:46
+#: backend/navbar.php:84
+msgid "Appearance"
+msgstr ""
+
+#: backend/tabs-content/design/design.php:4
+msgid "Appearance Settings"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:28
+msgid "Are You Choose Logo Format:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:8
+msgid "Are you want to show Contact Form"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:136
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:39
+msgid "Background Color:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:71
+msgid "Background Hover Color:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:120
+msgid "Background Image:"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:146
+msgid "Background Overlay:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:145
+msgid "Box Background Hover:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:100
+msgid "Box Background:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:116
+msgid "Box Border :"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:161
+msgid "Box Border Hover:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:39
+msgid "Box Border Radius:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:61
+msgid "Box Border Width:"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:69
+msgid "Box Container Size (px):"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:24
+msgid "Box Height(px):"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:13
+msgid "Box Height:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:49
+msgid "Box Radius:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:37
+msgid "Box Width(px):"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:26
+msgid "Box Width:"
+msgstr ""
+
+#: backend/footer.php:12
+msgid "Buy Coming Soon Pro Now"
+msgstr ""
+
+#: backend/tabs-content/contact/custom-modal.php:7
+#: backend/tabs-content/contact/custom-modal.php:14
+#: backend/tabs-content/countdown/custom-modal.php:6
+#: backend/tabs-content/countdown/custom-modal.php:12
+#: backend/tabs-content/countdown/custom-modal.php:18
+#: backend/tabs-content/countdown/custom-modal.php:24
+#: backend/tabs-content/countdown/custom-modal.php:30
+#: backend/tabs-content/countdown/custom-modal.php:36
+#: backend/tabs-content/design/custom-modal.php:6
+#: backend/tabs-content/design/custom-modal.php:13
+#: backend/tabs-content/newsletter/custom-modal.php:7
+#: backend/tabs-content/newsletter/custom-modal.php:14
+#: backend/tabs-content/newsletter/custom-modal.php:21
+#: backend/tabs-content/social/custom-modal.php:7
+#: backend/tabs-content/social/custom-modal.php:14
+#: backend/tabs-content/translation/translation.php:122
+msgid "Buy Now "
+msgstr ""
+
+#: backend/footer.php:20
+msgid "Check Pro version Features"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:17
+#: backend/tabs-content/design/enable-design-class.php:82
+#: backend/tabs-content/design/enable-design-class.php:124
+#: backend/tabs-content/seo/enable-seo-class.php:59
+msgid "Choose Image"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:56
+msgid "Choose Mode:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:45
+msgid "Client Email"
+msgstr ""
+
+#: backend/pro-features.php:51
+msgid "Codecanyon.net"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:117
+msgid "Color:"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:90
+#: backend/tabs-content/social/disable-social-class.php:78
+msgid "Colors"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:69
+msgid "Coming Soon & Landing Page"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Coming Soon & Maintenance Mode Plugin For WordPress. Hide your website until "
+"it’s ready."
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:78
+msgid "Coming Soon Graphic Logo:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:68
+msgid "Coming Soon Text Logo:"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:65 backend/admin-menubar.php:66
+msgid "Contact"
+msgstr ""
+
+#: backend/navbar.php:118
+msgid "Contact "
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:79
+msgid "Contact Box Height (px):"
+msgstr ""
+
+#: backend/footer.php:55
+msgid "Contact Form integrated"
+msgstr ""
+
+#: backend/tabs-content/contact/contact.php:4
+msgid "Contact Info"
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:6
+msgid "Contact Information"
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:10
+msgid "Contact No:"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:33 backend/admin-menubar.php:34
+msgid "Content"
+msgstr ""
+
+#: backend/navbar.php:70
+msgid "Content "
+msgstr ""
+
+#: backend/tabs-content/content/content.php:5
+msgid "Content Settings"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:85 backend/admin-menubar.php:86
+msgid "CountDown"
+msgstr ""
+
+#: backend/navbar.php:163
+msgid "CountDown "
+msgstr ""
+
+#: backend/footer.php:75
+msgid "Countdown Auto Launch"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:36
+msgid "Countdown date cannot be from the previous day!"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:32
+msgid "Countdown Date:"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:5
+msgid "Countdown Input Field"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:6
+msgid "Countdown Range"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:8
+msgid "Countdown Status"
+msgstr ""
+
+#: ultimate-coming-soon-maintenance.php:49
+msgid "Dashboard"
+msgstr ""
+
+#: templates/comingsoon0/index.php:171 templates/comingsoon13/index.php:129
+#: templates/comingsoon16/index.php:111
+#: backend/tabs-content/translation/translation.php:28
+msgid "Days"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:94
+msgid "Days Box Color:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:171
+msgid "Days Style"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:177
+msgid "Days Text:"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:40
+msgid "Description (px):"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:130
+msgid "Description:"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:23
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:13
+msgid "Disable"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:59
+msgid "Disabled"
+msgstr ""
+
+#: backend/navbar-content.php:175 backend/navbar-content.php:233
+msgid "Dismiss this notice."
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:18
+msgid "E-mail Address:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:40
+msgid "Email"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:60
+msgid "Email Address"
+msgstr ""
+
+#: backend/tabs-content/countdown/enable-countdown-class.php:15
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:13
+msgid "Enable"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:32
+msgid "Export CSV"
+msgstr ""
+
+#: backend/tabs-content/social/enable-social-class.php:9
+msgid "Facebook "
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:4
+msgid "Favicon & Logo Setup"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:13
+msgid "Favicon:"
+msgstr ""
+
+#: backend/pro-features.php:33 backend/pro-features.php:49
+msgid "Follow us on"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:72
+#: backend/tabs-content/design/disable-design-class.php:7
+msgid "Font Size"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:13
+msgid "Font Size(px):"
+msgstr ""
+
+#: backend/tabs-content/dashboard/dashboard.php:5
+msgid "General Settings "
+msgstr ""
+
+#: backend/pro-features.php:8
+msgid "Get 25+ Premium Design Templates in UCSM Pro"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:42
+msgid "Give your Google Analytics Tag ID:"
+msgstr ""
+
+#: ultimate-coming-soon-maintenance.php:51
+msgid "Go Pro"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:40
+msgid "Google Analytics:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:48
+msgid "Graphic Logo"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:13
+msgid "Heading (px):"
+msgstr ""
+
+#: backend/tabs-content/content/enable-content-class.php:12
+#: backend/tabs-content/design/disable-design-class.php:96
+msgid "Heading:"
+msgstr ""
+
+#: backend/footer.php:183
+msgid "High Priority Support"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:40
+msgid "Homepage only"
+msgstr ""
+
+#: templates/comingsoon0/index.php:180 templates/comingsoon13/index.php:136
+#: templates/comingsoon13/index.php:143 templates/comingsoon16/index.php:120
+#: backend/tabs-content/translation/translation.php:36
+msgid "Hours"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:112
+msgid "Hours Box Color:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:229
+msgid "Hours Style"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:235
+msgid "Hours Text:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://rstheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/ultimate-coming-soon/"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:84
+msgid "Icon :"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:48
+msgid "Icon Border Color:"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:31
+msgid "Icon Color:"
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:7
+msgid "Icon Range"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:39
+msgid "ID"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:6
+msgid "Info Color"
+msgstr ""
+
+#: backend/tabs-content/social/enable-social-class.php:23
+msgid "Instagram "
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:38
+msgid "It is recommended to keep the Address between 0–100 characters."
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:65
+msgid "It is recommended to keep the Box Border Width between 0-5 px."
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:74
+msgid "It is recommended to keep the Box Container Width  between 0-1200 px."
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:53
+msgid "It is recommended to keep the Box Radius between 0-100 px."
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:83
+msgid "It is recommended to keep the Contact Box Height between 0-32 px."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:18
+msgid "It is recommended to keep the Countdown Box Height between 0-160 px."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:44
+msgid "It is recommended to keep the Countdown Box Radius between 0 to 100px."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:31
+msgid "It is recommended to keep the Countdown Box Width between 0-160 px."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:59
+msgid ""
+"It is recommended to keep the Countdown level font size  between 0-32 px."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:73
+msgid ""
+"It is recommended to keep the Countdown timer value font size  between 0-80 "
+"px."
+msgstr ""
+
+#: backend/tabs-content/content/enable-content-class.php:37
+msgid "It is recommended to keep the description between 0–300 characters."
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:46
+msgid "It is recommended to keep the description font size  between 0-100 px."
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:17
+msgid "It is recommended to keep the Font Size between 0-24 px."
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:17
+msgid "It is recommended to keep the heading font size  between 0-80 px."
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:28
+msgid "It is recommended to keep the Icon Box Height  between 0-60 px."
+msgstr ""
+
+#: backend/tabs-content/social/disable-social-class.php:41
+msgid "It is recommended to keep the Icon Box Width between 0-60 px."
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:31
+msgid "It is recommended to keep the Sub heading font size  between 0-80 px."
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:111
+msgid ""
+"It is recommended to keep the Subscription level font size  between 0-100 px."
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:60
+msgid "It is recommended to keep the Text Logo font size  between 0-80 px."
+msgstr ""
+
+#: backend/footer.php:45
+msgid "Landing Pages access"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:187
+#: backend/tabs-content/countdown/disable-countdown-class.php:244
+#: backend/tabs-content/countdown/disable-countdown-class.php:297
+#: backend/tabs-content/countdown/disable-countdown-class.php:350
+msgid "Level Color:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:99
+msgid "Logo is disabled"
+msgstr ""
+
+#: backend/tabs-content/content/enable-content-class.php:4
+msgid "Main Content"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:83
+msgid "Maintenance Mode"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:43
+msgid "Message"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:20
+msgid "Meta Description:"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:55
+msgid "Meta Image:"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:30
+msgid "Meta Keywords:"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:10
+msgid "Meta Title:"
+msgstr ""
+
+#: templates/comingsoon0/index.php:190 templates/comingsoon16/index.php:130
+#: backend/tabs-content/translation/translation.php:44
+msgid "Minutes"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:130
+msgid "Minutes Box Color:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:282
+msgid "Minutes Style"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:288
+msgid "Minutes Text:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:42
+msgid "Mobile"
+msgstr ""
+
+#: backend/footer.php:163
+msgid "Mobile and SEO Friendly"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:52
+msgid "Mode Setup"
+msgstr ""
+
+#: backend/footer.php:89
+msgid "Multi-Language Supported"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:41
+msgid "Name"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:75 backend/admin-menubar.php:76
+#: backend/navbar.php:134 backend/tabs-content/newsletter/newsletter.php:4
+msgid "Newsletter"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:29
+msgid "Newsletter Client Information"
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:5
+msgid "Newsletter Field"
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:23
+msgid "Newsletter Off"
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:15
+msgid "Newsletter On"
+msgstr ""
+
+#: backend/navbar-content.php:26 backend/navbar-content.php:43
+#: backend/navbar-content.php:65 backend/navbar-content.php:94
+#: backend/navbar-content.php:111 backend/navbar-content.php:128
+#: backend/navbar-content.php:145 backend/navbar-content.php:161
+msgid "Nonce verification failed. Your request cannot be processed."
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:107
+msgid "Oops! Email is empty"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:68
+msgid "Oops! This email address is already on our list"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:76
+msgid "Oops! We need a valid email address. Please try again."
+msgstr ""
+
+#: backend/tabs-content/contact/enable-contact-class.php:26
+msgid "Opening Hours:"
+msgstr ""
+
+#: backend/pro-features.php:42
+msgid "Popular RS Elements Addons For Elementor"
+msgstr ""
+
+#: backend/tabs-content/templates/backend-part/templates-menu.php:44
+msgid "Preview"
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:7
+#: backend/tabs-content/contact/disable-contact-class.php:73
+#: backend/tabs-content/countdown/disable-countdown-class.php:88
+#: backend/tabs-content/countdown/disable-countdown-class.php:172
+#: backend/tabs-content/countdown/disable-countdown-class.php:230
+#: backend/tabs-content/countdown/disable-countdown-class.php:283
+#: backend/tabs-content/countdown/disable-countdown-class.php:337
+#: backend/tabs-content/design/disable-design-class.php:91
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:5
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:94
+#: backend/tabs-content/translation/translation.php:17
+#: backend/tabs-content/templates/backend-part/templates-menu.php:32
+msgid "Pro"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:7
+#: backend/tabs-content/design/disable-design-class.php:8
+#: backend/tabs-content/social/disable-social-class.php:8
+msgid "Pro "
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:95
+msgid "Redirect Mode"
+msgstr ""
+
+#: backend/footer.php:129
+msgid "Redirect to another website"
+msgstr ""
+
+#: backend/button.php:4
+msgid "Reset Settings"
+msgstr ""
+
+#. Author of the plugin
+#: backend/pro-features.php:27 backend/pro-features.php:34
+msgid "RSTheme"
+msgstr ""
+
+#: backend/button.php:3 backend/buttonS.php:3
+msgid "Save Settings"
+msgstr ""
+
+#: templates/comingsoon0/index.php:199 templates/comingsoon13/index.php:150
+#: templates/comingsoon16/index.php:139
+#: backend/tabs-content/translation/translation.php:52
+msgid "Seconds"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:148
+msgid "Seconds Box Color:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:336
+msgid "Seconds Style"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:342
+msgid "Seconds Text:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:115
+msgid "Select Background"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:95 backend/admin-menubar.php:96
+#: backend/navbar.php:177
+msgid "SEO"
+msgstr ""
+
+#: backend/tabs-content/seo/enable-seo-class.php:5
+msgid "SEO Content"
+msgstr ""
+
+#: backend/tabs-content/seo/seo.php:4
+msgid "SEO Settings"
+msgstr ""
+
+#: backend/footer.php:99
+msgid "Service Section with 10+ services"
+msgstr ""
+
+#: backend/tabs-content/countdown/countdown-setting.php:3
+msgid "Set Your Website Publishing Date"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:14 backend/admin-menubar.php:15
+#: backend/tabs-content/templates/backend-part/templates-menu.php:41
+msgid "Settings"
+msgstr ""
+
+#: backend/navbar.php:21
+msgid "Settings "
+msgstr ""
+
+#: backend/navbar-content.php:231
+msgid "Settings reset to default."
+msgstr ""
+
+#: backend/navbar-content.php:172
+msgid "Settings saved."
+msgstr ""
+
+#: backend/tabs-content/newsletter/enable-newsletter-class.php:32
+msgid "Show Contact Form"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:55 backend/admin-menubar.php:56
+#: backend/navbar.php:98
+msgid "Social"
+msgstr ""
+
+#: backend/tabs-content/social/enable-social-class.php:5
+msgid "Social Link"
+msgstr ""
+
+#: backend/tabs-content/social/social.php:4
+msgid "Social Settings"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:21
+msgid "String"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:27
+msgid "Sub Heading (px):"
+msgstr ""
+
+#: backend/tabs-content/content/enable-content-class.php:22
+#: backend/tabs-content/design/disable-design-class.php:113
+msgid "Sub Heading:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/newsletter.php:44
+msgid "Submission Time"
+msgstr ""
+
+#: templates/comingsoon0/index.php:210 templates/comingsoon13/index.php:162
+#: templates/comingsoon16/index.php:151
+msgid "Subscribe"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:92
+msgid "Subscribe  "
+msgstr ""
+
+#: backend/footer.php:119
+msgid "Subscriber list view & export"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:5
+msgid "Subscription Button"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:94
+msgid "Subscription Notice"
+msgstr ""
+
+#: backend/footer.php:153
+msgid "Super Fast Performance"
+msgstr ""
+
+#: ultimate-coming-soon-maintenance.php:50
+msgid "Support"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:23 backend/admin-menubar.php:24
+#: backend/navbar.php:55
+msgid "Templates"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:23
+msgid "Text Color:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:55
+msgid "Text Hover Color:"
+msgstr ""
+
+#: backend/tabs-content/design/enable-design-class.php:37
+msgid "Text Logo"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:55
+msgid "Text Logo (px):"
+msgstr ""
+
+#: backend/tabs-content/design/disable-design-class.php:163
+msgid "Text Logo:"
+msgstr ""
+
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:11
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:99
+msgid "Text:"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:84
+msgid "Thank you! Your sign up request was successful."
+msgstr ""
+
+#: backend/tabs-content/contact/disable-contact-class.php:63
+#: backend/tabs-content/contact/disable-contact-class.php:87
+#: backend/tabs-content/countdown/disable-countdown-class.php:78
+#: backend/tabs-content/countdown/disable-countdown-class.php:162
+#: backend/tabs-content/countdown/disable-countdown-class.php:220
+#: backend/tabs-content/countdown/disable-countdown-class.php:273
+#: backend/tabs-content/countdown/disable-countdown-class.php:328
+#: backend/tabs-content/countdown/disable-countdown-class.php:381
+#: backend/tabs-content/design/disable-design-class.php:80
+#: backend/tabs-content/design/disable-design-class.php:177
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:84
+#: backend/tabs-content/newsletter/disable-newsletter-class.php:129
+#: backend/tabs-content/social/disable-social-class.php:70
+#: backend/tabs-content/social/disable-social-class.php:174
+msgid "This section is available in the Pro version of the plugin."
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:53
+msgid "Timer Level Font Size :"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:205
+#: backend/tabs-content/countdown/disable-countdown-class.php:260
+#: backend/tabs-content/countdown/disable-countdown-class.php:314
+#: backend/tabs-content/countdown/disable-countdown-class.php:367
+msgid "Timer Value Color:"
+msgstr ""
+
+#: backend/tabs-content/countdown/disable-countdown-class.php:67
+msgid "Timer Value Font Size :"
+msgstr ""
+
+#. Parent slug
+#. Page title
+#: backend/admin-menubar.php:105 backend/admin-menubar.php:106
+#: backend/navbar.php:193 backend/tabs-content/translation/translation.php:22
+msgid "Translation"
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:16
+msgid "Translation Features"
+msgstr ""
+
+#: backend/pro-features.php:19
+msgid "Try Pro Version "
+msgstr ""
+
+#: backend/tabs-content/social/enable-social-class.php:16
+msgid "Twitter "
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:8
+msgid "UCSM Status"
+msgstr ""
+
+#: backend/admin-menubar.php:8
+msgid "Ultimate Coming"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ultimate Coming Soon & Maintenance"
+msgstr ""
+
+#: backend/footer.php:14
+msgid "View Demo"
+msgstr ""
+
+#: backend/tabs-content/dashboard/enable-dashboard-class.php:28
+msgid "Whole Website"
+msgstr ""
+
+#: backend/tabs-content/contact/custom-modal.php:7
+#: backend/tabs-content/contact/custom-modal.php:14
+#: backend/tabs-content/countdown/custom-modal.php:6
+#: backend/tabs-content/countdown/custom-modal.php:12
+#: backend/tabs-content/countdown/custom-modal.php:18
+#: backend/tabs-content/countdown/custom-modal.php:24
+#: backend/tabs-content/countdown/custom-modal.php:30
+#: backend/tabs-content/countdown/custom-modal.php:36
+#: backend/tabs-content/design/custom-modal.php:6
+#: backend/tabs-content/design/custom-modal.php:13
+#: backend/tabs-content/newsletter/custom-modal.php:7
+#: backend/tabs-content/newsletter/custom-modal.php:14
+#: backend/tabs-content/newsletter/custom-modal.php:21
+#: backend/tabs-content/social/custom-modal.php:7
+#: backend/tabs-content/social/custom-modal.php:14
+#: backend/tabs-content/translation/translation.php:122
+msgid ""
+"You are using free version of UCSM. For getting all features, Try to Buy Pro "
+"Version.  "
+msgstr ""
+
+#: backend/content.php:3
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: backend/tabs-content/translation/translation.php:100
+msgid "You must agree with our Terms and Conditions"
+msgstr ""
+
+#: backend/tabs-content/social/enable-social-class.php:30
+msgid "YouTube "
+msgstr ""
